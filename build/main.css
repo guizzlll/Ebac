@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  background-color: #182C61;
+}
+header li {
+  list-style: none;
+  display: inline;
+  padding-right: 20px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+}
+
+body section {
+  margin-top: 40px;
+}
+body section h2 {
+  margin-bottom: 850px;
+  margin-top: none;
+}
+body section ul {
+  display: flex;
+  width: 100%;
+}
+body section li {
+  list-style: none;
+  width: 100%;
+}
+body section img {
+  width: 100%;
+  border-radius: 16px;
+}
+body section button {
+  display: block;
+  background-color: #44bd32;
+  color: #fff;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 8px;
+  margin-top: 8px;
+  text-decoration: none;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+}
+body section button:hover {
+  background-color: #4cd137;
+}
+body section .products {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 32.66%);
+  column-gap: 1%;
+  row-gap: 4%;
+  width: 100%;
+}
+body section .container {
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
